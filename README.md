@@ -1,3 +1,4 @@
+
 # Accounting fraud detection using machine learning
 
 Programming code for 5 machine learning algorithms (i.e., Weighted Random Forest, Balanced Random Forest, UnderBagging, Basic Decision Tree, and Basic Random Forest) using 3 data (sub)sets (i.e, 28 raw accounting variables, 14 financial ratio variables, 28 raw accounting and 14 financial ratio variables). These algorithms are build in the context of our Master's Thesis and are capable of detecing accounting fraud in publicly traded U.S. firms by using readibly available financial statement data. We evaluate the performance of our models using three metrics: AUC-ROC, NDCG@k, and the AUC-PR.
@@ -71,3 +72,7 @@ The description of the 14 financial ratio variables are as follows:
 - EBIT -- Earnings before interest and taxes over total assets
 - issue -- Actual issuance
 - bm -- Book-to-market
+##  Acknowledgments
+We extend our gratitude to (BAO et al., 2020) for providing the dataset and essential resources that contributed to the successful completion of our research.
+
+- BAO, Y., KE, B., LI, B., YU, Y. J., & ZHANG, J. (2020). Detecting Accounting Fraud in Publicly Traded U.S. Firms Using a Machine Learning Approach. Journal of Accounting Research, 58(1), 199–235. https://doi.org/10.1111/1475-679x.12292
